@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 29, 2018 at 11:39 AM
+-- Generation Time: Jan 29, 2018 at 11:51 AM
 -- Server version: 5.7.20-0ubuntu0.17.10.1
 -- PHP Version: 7.1.11-0ubuntu0.17.10.1
 
@@ -523,7 +523,21 @@ INSERT INTO `wp_bibliousermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`
 (15, 1, 'show_welcome_panel', '1'),
 (16, 1, 'session_tokens', 'a:1:{s:64:\"c3211376a5092bc2654b0dc16bc8e3439c3134f6a433fc548f84befa687e6ba7\";a:4:{s:10:\"expiration\";i:1517393391;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0\";s:5:\"login\";i:1517220591;}}'),
 (17, 1, 'wp_bibliodashboard_quick_press_last_post_id', '3'),
-(18, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}');
+(18, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}'),
+(19, 2, 'nickname', 'teyssedou'),
+(20, 2, 'first_name', ''),
+(21, 2, 'last_name', ''),
+(22, 2, 'description', ''),
+(23, 2, 'rich_editing', 'true'),
+(24, 2, 'syntax_highlighting', 'true'),
+(25, 2, 'comment_shortcuts', 'false'),
+(26, 2, 'admin_color', 'fresh'),
+(27, 2, 'use_ssl', '0'),
+(28, 2, 'show_admin_bar_front', 'true'),
+(29, 2, 'locale', ''),
+(30, 2, 'wp_bibliocapabilities', 'a:1:{s:13:\"administrator\";b:1;}'),
+(31, 2, 'wp_bibliouser_level', '10'),
+(32, 2, 'dismissed_wp_pointers', '');
 
 -- --------------------------------------------------------
 
@@ -549,7 +563,8 @@ CREATE TABLE `wp_bibliousers` (
 --
 
 INSERT INTO `wp_bibliousers` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'Fowder', '$P$B5xq2K88mCzpksuN45nvQHnHzcx3MM/', 'fowder', 'emile.troccaz@hotmail.com', '', '2018-01-29 10:09:39', '', 0, 'Fowder');
+(1, 'Fowder', '$P$B5xq2K88mCzpksuN45nvQHnHzcx3MM/', 'fowder', 'emile.troccaz@hotmail.com', '', '2018-01-29 10:09:39', '', 0, 'Fowder'),
+(2, 'teyssedou', '$P$BkLKBh.zIl19/hsqxtVNkJK/7OUCoQ0', 'teyssedou', 'mikaelteyssedou@gmail.com', '', '2018-01-29 10:51:31', '1517223092:$P$BL6UfX1GEX6JmXlShPOlZMDhAssNyS/', 0, 'teyssedou');
 
 --
 -- Indexes for dumped tables
@@ -707,12 +722,12 @@ ALTER TABLE `wp_biblioterm_taxonomy`
 -- AUTO_INCREMENT for table `wp_bibliousermeta`
 --
 ALTER TABLE `wp_bibliousermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 --
 -- AUTO_INCREMENT for table `wp_bibliousers`
 --
 ALTER TABLE `wp_bibliousers`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
