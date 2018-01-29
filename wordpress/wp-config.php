@@ -25,7 +25,7 @@ define('DB_NAME', 'biblio_esp');
 define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'Foudre46');
+define('DB_PASSWORD', 'simplonco');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
