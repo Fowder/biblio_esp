@@ -2,10 +2,10 @@
 -- version 4.6.6deb5
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Jan 29, 2018 at 12:03 PM
--- Server version: 5.7.20-0ubuntu0.17.10.1
--- PHP Version: 7.1.11-0ubuntu0.17.10.1
+-- Client :  localhost:3306
+-- Généré le :  Lun 29 Janvier 2018 à 16:06
+-- Version du serveur :  5.7.21-0ubuntu0.17.10.1
+-- Version de PHP :  7.1.11-0ubuntu0.17.10.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `biblio_esp`
+-- Base de données :  `biblio_esp`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliocommentmeta`
+-- Structure de la table `wp_bibliocommentmeta`
 --
 
 CREATE TABLE `wp_bibliocommentmeta` (
@@ -36,7 +36,7 @@ CREATE TABLE `wp_bibliocommentmeta` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliocomments`
+-- Structure de la table `wp_bibliocomments`
 --
 
 CREATE TABLE `wp_bibliocomments` (
@@ -58,7 +58,7 @@ CREATE TABLE `wp_bibliocomments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_bibliocomments`
+-- Contenu de la table `wp_bibliocomments`
 --
 
 INSERT INTO `wp_bibliocomments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
@@ -67,7 +67,7 @@ INSERT INTO `wp_bibliocomments` (`comment_ID`, `comment_post_ID`, `comment_autho
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliolinks`
+-- Structure de la table `wp_bibliolinks`
 --
 
 CREATE TABLE `wp_bibliolinks` (
@@ -89,7 +89,7 @@ CREATE TABLE `wp_bibliolinks` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliooptions`
+-- Structure de la table `wp_bibliooptions`
 --
 
 CREATE TABLE `wp_bibliooptions` (
@@ -100,7 +100,7 @@ CREATE TABLE `wp_bibliooptions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_bibliooptions`
+-- Contenu de la table `wp_bibliooptions`
 --
 
 INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -136,7 +136,7 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (30, 'hack_file', '0', 'yes'),
 (31, 'blog_charset', 'UTF-8', 'yes'),
 (32, 'moderation_keys', '', 'no'),
-(33, 'active_plugins', 'a:0:{}', 'yes'),
+(33, 'active_plugins', 'a:1:{i:0;s:19:\"akismet/akismet.php\";}', 'yes'),
 (34, 'category_base', '', 'yes'),
 (35, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (36, 'comment_max_links', '2', 'yes'),
@@ -216,8 +216,8 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (110, 'cron', 'a:3:{i:1517263781;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1517307031;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
 (111, 'theme_mods_twentyseventeen', 'a:7:{s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:2:{s:3:\"top\";i:2;s:6:\"social\";i:3;}s:7:\"panel_1\";i:8;s:7:\"panel_2\";i:5;s:7:\"panel_3\";i:7;s:7:\"panel_4\";i:6;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1517223443;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:3:{i:0;s:6:\"text-2\";i:1;s:8:\"search-3\";i:2;s:6:\"text-3\";}s:9:\"sidebar-2\";a:1:{i:0;s:6:\"text-4\";}s:9:\"sidebar-3\";a:2:{i:0;s:6:\"text-5\";i:1;s:8:\"search-4\";}}}}', 'yes'),
 (121, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:65:\"https://downloads.wordpress.org/release/fr_FR/wordpress-4.9.2.zip\";s:6:\"locale\";s:5:\"fr_FR\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:65:\"https://downloads.wordpress.org/release/fr_FR/wordpress-4.9.2.zip\";s:10:\"no_content\";b:0;s:11:\"new_bundled\";b:0;s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.9.2\";s:7:\"version\";s:5:\"4.9.2\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1517220590;s:15:\"version_checked\";s:5:\"4.9.2\";s:12:\"translations\";a:0:{}}', 'no'),
-(122, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1517220593;s:7:\"checked\";a:3:{s:13:\"twentyfifteen\";s:3:\"1.9\";s:15:\"twentyseventeen\";s:3:\"1.4\";s:13:\"twentysixteen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
-(123, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1517220631;s:7:\"checked\";a:2:{s:19:\"akismet/akismet.php\";s:5:\"4.0.2\";s:9:\"hello.php\";s:3:\"1.6\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:11:\"hello-dolly\";s:8:\"language\";s:5:\"fr_FR\";s:7:\"version\";s:3:\"1.6\";s:7:\"updated\";s:19:\"2017-11-05 21:22:50\";s:7:\"package\";s:76:\"https://downloads.wordpress.org/translation/plugin/hello-dolly/1.6/fr_FR.zip\";s:10:\"autoupdate\";b:1;}}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.2\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.2.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907\";s:2:\"2x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";s:7:\"default\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";s:7:\"default\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
+(122, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1517234226;s:7:\"checked\";a:3:{s:13:\"twentyfifteen\";s:3:\"1.9\";s:15:\"twentyseventeen\";s:3:\"1.4\";s:13:\"twentysixteen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
+(123, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1517237688;s:7:\"checked\";a:2:{s:19:\"akismet/akismet.php\";s:5:\"4.0.2\";s:9:\"hello.php\";s:3:\"1.6\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:11:\"hello-dolly\";s:8:\"language\";s:5:\"fr_FR\";s:7:\"version\";s:3:\"1.6\";s:7:\"updated\";s:19:\"2017-11-05 21:22:50\";s:7:\"package\";s:76:\"https://downloads.wordpress.org/translation/plugin/hello-dolly/1.6/fr_FR.zip\";s:10:\"autoupdate\";b:1;}}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.2\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.2.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907\";s:2:\"2x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";s:7:\"default\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";s:7:\"default\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
 (124, '_site_transient_timeout_browser_6df47feeeda72948e2378527bc065d7f', '1517825392', 'no'),
 (125, '_site_transient_browser_6df47feeeda72948e2378527bc065d7f', 'a:10:{s:4:\"name\";s:7:\"Firefox\";s:7:\"version\";s:4:\"57.0\";s:8:\"platform\";s:5:\"Linux\";s:10:\"update_url\";s:24:\"https://www.firefox.com/\";s:7:\"img_src\";s:44:\"http://s.w.org/images/browsers/firefox.png?1\";s:11:\"img_src_ssl\";s:45:\"https://s.w.org/images/browsers/firefox.png?1\";s:15:\"current_version\";s:2:\"56\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no'),
 (126, 'can_compress_scripts', '0', 'no'),
@@ -236,19 +236,26 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (137, '_transient_timeout_dash_v2_bd94b8f41e74bae2f4dc72e9bd8379af', '1517263794', 'no'),
 (138, '_transient_dash_v2_bd94b8f41e74bae2f4dc72e9bd8379af', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/WordpressFrancophone/~3/BC2q8usn6uA/\'>L’élection du bureau WPFR 2018</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/XpvoSkoa7DQ/\'>Gutenberg 2.0 est arrivé : nombreuses améliorations d’accessibilité et de navigation au clavier</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/K-L5h5Mmyus/\'>Obligation de conformité des logiciels et systèmes de caisse depuis le 1er janvier 2018</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/E2j2xA0eIko/\'>La Galaxie Envato : Retour sur une success story</a></li></ul></div>', 'no'),
 (149, 'nav_menu_options', 'a:1:{s:8:\"auto_add\";a:0:{}}', 'yes'),
-(151, '_site_transient_timeout_theme_roots', '1517225237', 'no'),
-(152, '_site_transient_theme_roots', 'a:3:{s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
 (153, 'theme_mods_twentyfifteen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:2:{s:7:\"primary\";i:2;s:6:\"social\";i:0;}}', 'yes'),
 (154, 'theme_switch_menu_locations', 'a:2:{s:3:\"top\";i:2;s:6:\"social\";i:3;}', 'yes'),
 (155, 'current_theme', 'Twenty Fifteen', 'yes'),
 (156, 'theme_switched', '', 'yes'),
 (157, 'theme_switched_via_customizer', '', 'yes'),
-(158, 'customize_stashed_theme_mods', 'a:0:{}', 'no');
+(158, 'customize_stashed_theme_mods', 'a:0:{}', 'no'),
+(159, '_site_transient_timeout_theme_roots', '1517236025', 'no'),
+(160, '_site_transient_theme_roots', 'a:3:{s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
+(161, '_site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a', '1517248477', 'no'),
+(162, '_site_transient_poptags_40cd750bba9870f18aada2478b24840a', 'O:8:\"stdClass\":100:{s:6:\"widget\";a:3:{s:4:\"name\";s:6:\"widget\";s:4:\"slug\";s:6:\"widget\";s:5:\"count\";i:4421;}s:11:\"woocommerce\";a:3:{s:4:\"name\";s:11:\"woocommerce\";s:4:\"slug\";s:11:\"woocommerce\";s:5:\"count\";i:2547;}s:4:\"post\";a:3:{s:4:\"name\";s:4:\"post\";s:4:\"slug\";s:4:\"post\";s:5:\"count\";i:2533;}s:5:\"admin\";a:3:{s:4:\"name\";s:5:\"admin\";s:4:\"slug\";s:5:\"admin\";s:5:\"count\";i:2391;}s:5:\"posts\";a:3:{s:4:\"name\";s:5:\"posts\";s:4:\"slug\";s:5:\"posts\";s:5:\"count\";i:1856;}s:8:\"comments\";a:3:{s:4:\"name\";s:8:\"comments\";s:4:\"slug\";s:8:\"comments\";s:5:\"count\";i:1626;}s:9:\"shortcode\";a:3:{s:4:\"name\";s:9:\"shortcode\";s:4:\"slug\";s:9:\"shortcode\";s:5:\"count\";i:1624;}s:7:\"twitter\";a:3:{s:4:\"name\";s:7:\"twitter\";s:4:\"slug\";s:7:\"twitter\";s:5:\"count\";i:1445;}s:6:\"google\";a:3:{s:4:\"name\";s:6:\"google\";s:4:\"slug\";s:6:\"google\";s:5:\"count\";i:1377;}s:6:\"images\";a:3:{s:4:\"name\";s:6:\"images\";s:4:\"slug\";s:6:\"images\";s:5:\"count\";i:1376;}s:8:\"facebook\";a:3:{s:4:\"name\";s:8:\"facebook\";s:4:\"slug\";s:8:\"facebook\";s:5:\"count\";i:1368;}s:5:\"image\";a:3:{s:4:\"name\";s:5:\"image\";s:4:\"slug\";s:5:\"image\";s:5:\"count\";i:1293;}s:7:\"sidebar\";a:3:{s:4:\"name\";s:7:\"sidebar\";s:4:\"slug\";s:7:\"sidebar\";s:5:\"count\";i:1282;}s:3:\"seo\";a:3:{s:4:\"name\";s:3:\"seo\";s:4:\"slug\";s:3:\"seo\";s:5:\"count\";i:1177;}s:7:\"gallery\";a:3:{s:4:\"name\";s:7:\"gallery\";s:4:\"slug\";s:7:\"gallery\";s:5:\"count\";i:1081;}s:4:\"page\";a:3:{s:4:\"name\";s:4:\"page\";s:4:\"slug\";s:4:\"page\";s:5:\"count\";i:1056;}s:6:\"social\";a:3:{s:4:\"name\";s:6:\"social\";s:4:\"slug\";s:6:\"social\";s:5:\"count\";i:1009;}s:5:\"email\";a:3:{s:4:\"name\";s:5:\"email\";s:4:\"slug\";s:5:\"email\";s:5:\"count\";i:982;}s:9:\"ecommerce\";a:3:{s:4:\"name\";s:9:\"ecommerce\";s:4:\"slug\";s:9:\"ecommerce\";s:5:\"count\";i:855;}s:5:\"login\";a:3:{s:4:\"name\";s:5:\"login\";s:4:\"slug\";s:5:\"login\";s:5:\"count\";i:849;}s:5:\"links\";a:3:{s:4:\"name\";s:5:\"links\";s:4:\"slug\";s:5:\"links\";s:5:\"count\";i:819;}s:7:\"widgets\";a:3:{s:4:\"name\";s:7:\"widgets\";s:4:\"slug\";s:7:\"widgets\";s:5:\"count\";i:791;}s:5:\"video\";a:3:{s:4:\"name\";s:5:\"video\";s:4:\"slug\";s:5:\"video\";s:5:\"count\";i:786;}s:7:\"content\";a:3:{s:4:\"name\";s:7:\"content\";s:4:\"slug\";s:7:\"content\";s:5:\"count\";i:683;}s:8:\"security\";a:3:{s:4:\"name\";s:8:\"security\";s:4:\"slug\";s:8:\"security\";s:5:\"count\";i:683;}s:3:\"rss\";a:3:{s:4:\"name\";s:3:\"rss\";s:4:\"slug\";s:3:\"rss\";s:5:\"count\";i:678;}s:4:\"spam\";a:3:{s:4:\"name\";s:4:\"spam\";s:4:\"slug\";s:4:\"spam\";s:5:\"count\";i:669;}s:10:\"buddypress\";a:3:{s:4:\"name\";s:10:\"buddypress\";s:4:\"slug\";s:10:\"buddypress\";s:5:\"count\";i:669;}s:5:\"pages\";a:3:{s:4:\"name\";s:5:\"pages\";s:4:\"slug\";s:5:\"pages\";s:5:\"count\";i:653;}s:6:\"slider\";a:3:{s:4:\"name\";s:6:\"slider\";s:4:\"slug\";s:6:\"slider\";s:5:\"count\";i:648;}s:6:\"jquery\";a:3:{s:4:\"name\";s:6:\"jquery\";s:4:\"slug\";s:6:\"jquery\";s:5:\"count\";i:638;}s:9:\"analytics\";a:3:{s:4:\"name\";s:9:\"analytics\";s:4:\"slug\";s:9:\"analytics\";s:5:\"count\";i:625;}s:5:\"media\";a:3:{s:4:\"name\";s:5:\"media\";s:4:\"slug\";s:5:\"media\";s:5:\"count\";i:624;}s:4:\"feed\";a:3:{s:4:\"name\";s:4:\"feed\";s:4:\"slug\";s:4:\"feed\";s:5:\"count\";i:602;}s:10:\"e-commerce\";a:3:{s:4:\"name\";s:10:\"e-commerce\";s:4:\"slug\";s:10:\"e-commerce\";s:5:\"count\";i:600;}s:4:\"ajax\";a:3:{s:4:\"name\";s:4:\"ajax\";s:4:\"slug\";s:4:\"ajax\";s:5:\"count\";i:594;}s:6:\"search\";a:3:{s:4:\"name\";s:6:\"search\";s:4:\"slug\";s:6:\"search\";s:5:\"count\";i:593;}s:8:\"category\";a:3:{s:4:\"name\";s:8:\"category\";s:4:\"slug\";s:8:\"category\";s:5:\"count\";i:584;}s:4:\"form\";a:3:{s:4:\"name\";s:4:\"form\";s:4:\"slug\";s:4:\"form\";s:5:\"count\";i:582;}s:4:\"menu\";a:3:{s:4:\"name\";s:4:\"menu\";s:4:\"slug\";s:4:\"menu\";s:5:\"count\";i:575;}s:5:\"embed\";a:3:{s:4:\"name\";s:5:\"embed\";s:4:\"slug\";s:5:\"embed\";s:5:\"count\";i:552;}s:10:\"javascript\";a:3:{s:4:\"name\";s:10:\"javascript\";s:4:\"slug\";s:10:\"javascript\";s:5:\"count\";i:539;}s:4:\"link\";a:3:{s:4:\"name\";s:4:\"link\";s:4:\"slug\";s:4:\"link\";s:5:\"count\";i:534;}s:3:\"css\";a:3:{s:4:\"name\";s:3:\"css\";s:4:\"slug\";s:3:\"css\";s:5:\"count\";i:524;}s:5:\"share\";a:3:{s:4:\"name\";s:5:\"share\";s:4:\"slug\";s:5:\"share\";s:5:\"count\";i:515;}s:7:\"comment\";a:3:{s:4:\"name\";s:7:\"comment\";s:4:\"slug\";s:7:\"comment\";s:5:\"count\";i:508;}s:7:\"youtube\";a:3:{s:4:\"name\";s:7:\"youtube\";s:4:\"slug\";s:7:\"youtube\";s:5:\"count\";i:507;}s:5:\"theme\";a:3:{s:4:\"name\";s:5:\"theme\";s:4:\"slug\";s:5:\"theme\";s:5:\"count\";i:501;}s:9:\"dashboard\";a:3:{s:4:\"name\";s:9:\"dashboard\";s:4:\"slug\";s:9:\"dashboard\";s:5:\"count\";i:487;}s:10:\"responsive\";a:3:{s:4:\"name\";s:10:\"responsive\";s:4:\"slug\";s:10:\"responsive\";s:5:\"count\";i:485;}s:6:\"custom\";a:3:{s:4:\"name\";s:6:\"custom\";s:4:\"slug\";s:6:\"custom\";s:5:\"count\";i:482;}s:10:\"categories\";a:3:{s:4:\"name\";s:10:\"categories\";s:4:\"slug\";s:10:\"categories\";s:5:\"count\";i:475;}s:6:\"editor\";a:3:{s:4:\"name\";s:6:\"editor\";s:4:\"slug\";s:6:\"editor\";s:5:\"count\";i:470;}s:3:\"ads\";a:3:{s:4:\"name\";s:3:\"ads\";s:4:\"slug\";s:3:\"ads\";s:5:\"count\";i:463;}s:9:\"affiliate\";a:3:{s:4:\"name\";s:9:\"affiliate\";s:4:\"slug\";s:9:\"affiliate\";s:5:\"count\";i:460;}s:12:\"contact-form\";a:3:{s:4:\"name\";s:12:\"contact form\";s:4:\"slug\";s:12:\"contact-form\";s:5:\"count\";i:455;}s:6:\"button\";a:3:{s:4:\"name\";s:6:\"button\";s:4:\"slug\";s:6:\"button\";s:5:\"count\";i:450;}s:4:\"tags\";a:3:{s:4:\"name\";s:4:\"tags\";s:4:\"slug\";s:4:\"tags\";s:5:\"count\";i:449;}s:4:\"user\";a:3:{s:4:\"name\";s:4:\"user\";s:4:\"slug\";s:4:\"user\";s:5:\"count\";i:432;}s:6:\"mobile\";a:3:{s:4:\"name\";s:6:\"mobile\";s:4:\"slug\";s:6:\"mobile\";s:5:\"count\";i:421;}s:7:\"contact\";a:3:{s:4:\"name\";s:7:\"contact\";s:4:\"slug\";s:7:\"contact\";s:5:\"count\";i:418;}s:5:\"photo\";a:3:{s:4:\"name\";s:5:\"photo\";s:4:\"slug\";s:5:\"photo\";s:5:\"count\";i:416;}s:5:\"users\";a:3:{s:4:\"name\";s:5:\"users\";s:4:\"slug\";s:5:\"users\";s:5:\"count\";i:414;}s:5:\"stats\";a:3:{s:4:\"name\";s:5:\"stats\";s:4:\"slug\";s:5:\"stats\";s:5:\"count\";i:409;}s:3:\"api\";a:3:{s:4:\"name\";s:3:\"api\";s:4:\"slug\";s:3:\"api\";s:5:\"count\";i:409;}s:9:\"slideshow\";a:3:{s:4:\"name\";s:9:\"slideshow\";s:4:\"slug\";s:9:\"slideshow\";s:5:\"count\";i:407;}s:6:\"photos\";a:3:{s:4:\"name\";s:6:\"photos\";s:4:\"slug\";s:6:\"photos\";s:5:\"count\";i:400;}s:6:\"events\";a:3:{s:4:\"name\";s:6:\"events\";s:4:\"slug\";s:6:\"events\";s:5:\"count\";i:391;}s:10:\"statistics\";a:3:{s:4:\"name\";s:10:\"statistics\";s:4:\"slug\";s:10:\"statistics\";s:5:\"count\";i:387;}s:10:\"navigation\";a:3:{s:4:\"name\";s:10:\"navigation\";s:4:\"slug\";s:10:\"navigation\";s:5:\"count\";i:382;}s:7:\"payment\";a:3:{s:4:\"name\";s:7:\"payment\";s:4:\"slug\";s:7:\"payment\";s:5:\"count\";i:361;}s:4:\"news\";a:3:{s:4:\"name\";s:4:\"news\";s:4:\"slug\";s:4:\"news\";s:5:\"count\";i:359;}s:8:\"calendar\";a:3:{s:4:\"name\";s:8:\"calendar\";s:4:\"slug\";s:8:\"calendar\";s:5:\"count\";i:354;}s:10:\"shortcodes\";a:3:{s:4:\"name\";s:10:\"shortcodes\";s:4:\"slug\";s:10:\"shortcodes\";s:5:\"count\";i:351;}s:5:\"popup\";a:3:{s:4:\"name\";s:5:\"popup\";s:4:\"slug\";s:5:\"popup\";s:5:\"count\";i:340;}s:12:\"social-media\";a:3:{s:4:\"name\";s:12:\"social media\";s:4:\"slug\";s:12:\"social-media\";s:5:\"count\";i:339;}s:7:\"plugins\";a:3:{s:4:\"name\";s:7:\"plugins\";s:4:\"slug\";s:7:\"plugins\";s:5:\"count\";i:337;}s:9:\"multisite\";a:3:{s:4:\"name\";s:9:\"multisite\";s:4:\"slug\";s:9:\"multisite\";s:5:\"count\";i:337;}s:10:\"newsletter\";a:3:{s:4:\"name\";s:10:\"newsletter\";s:4:\"slug\";s:10:\"newsletter\";s:5:\"count\";i:333;}s:9:\"marketing\";a:3:{s:4:\"name\";s:9:\"marketing\";s:4:\"slug\";s:9:\"marketing\";s:5:\"count\";i:332;}s:4:\"code\";a:3:{s:4:\"name\";s:4:\"code\";s:4:\"slug\";s:4:\"code\";s:5:\"count\";i:331;}s:4:\"list\";a:3:{s:4:\"name\";s:4:\"list\";s:4:\"slug\";s:4:\"list\";s:5:\"count\";i:331;}s:4:\"meta\";a:3:{s:4:\"name\";s:4:\"meta\";s:4:\"slug\";s:4:\"meta\";s:5:\"count\";i:328;}s:3:\"url\";a:3:{s:4:\"name\";s:3:\"url\";s:4:\"slug\";s:3:\"url\";s:5:\"count\";i:326;}s:4:\"chat\";a:3:{s:4:\"name\";s:4:\"chat\";s:4:\"slug\";s:4:\"chat\";s:5:\"count\";i:325;}s:15:\"payment-gateway\";a:3:{s:4:\"name\";s:15:\"payment gateway\";s:4:\"slug\";s:15:\"payment-gateway\";s:5:\"count\";i:316;}s:8:\"redirect\";a:3:{s:4:\"name\";s:8:\"redirect\";s:4:\"slug\";s:8:\"redirect\";s:5:\"count\";i:311;}s:5:\"forms\";a:3:{s:4:\"name\";s:5:\"forms\";s:4:\"slug\";s:5:\"forms\";s:5:\"count\";i:308;}s:16:\"custom-post-type\";a:3:{s:4:\"name\";s:16:\"custom post type\";s:4:\"slug\";s:16:\"custom-post-type\";s:5:\"count\";i:302;}s:3:\"tag\";a:3:{s:4:\"name\";s:3:\"tag\";s:4:\"slug\";s:3:\"tag\";s:5:\"count\";i:300;}s:6:\"simple\";a:3:{s:4:\"name\";s:6:\"simple\";s:4:\"slug\";s:6:\"simple\";s:5:\"count\";i:300;}s:11:\"advertising\";a:3:{s:4:\"name\";s:11:\"advertising\";s:4:\"slug\";s:11:\"advertising\";s:5:\"count\";i:298;}s:7:\"adsense\";a:3:{s:4:\"name\";s:7:\"adsense\";s:4:\"slug\";s:7:\"adsense\";s:5:\"count\";i:293;}s:12:\"notification\";a:3:{s:4:\"name\";s:12:\"notification\";s:4:\"slug\";s:12:\"notification\";s:5:\"count\";i:288;}s:4:\"html\";a:3:{s:4:\"name\";s:4:\"html\";s:4:\"slug\";s:4:\"html\";s:5:\"count\";i:288;}s:8:\"tracking\";a:3:{s:4:\"name\";s:8:\"tracking\";s:4:\"slug\";s:8:\"tracking\";s:5:\"count\";i:286;}s:6:\"author\";a:3:{s:4:\"name\";s:6:\"author\";s:4:\"slug\";s:6:\"author\";s:5:\"count\";i:286;}s:16:\"google-analytics\";a:3:{s:4:\"name\";s:16:\"google analytics\";s:4:\"slug\";s:16:\"google-analytics\";s:5:\"count\";i:284;}s:8:\"lightbox\";a:3:{s:4:\"name\";s:8:\"lightbox\";s:4:\"slug\";s:8:\"lightbox\";s:5:\"count\";i:282;}s:11:\"performance\";a:3:{s:4:\"name\";s:11:\"performance\";s:4:\"slug\";s:11:\"performance\";s:5:\"count\";i:280;}}', 'no'),
+(163, 'recently_activated', 'a:0:{}', 'yes'),
+(164, 'widget_akismet_widget', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
+(165, '_transient_timeout_plugin_slugs', '1517324089', 'no'),
+(166, '_transient_plugin_slugs', 'a:2:{i:0;s:19:\"akismet/akismet.php\";i:1;s:9:\"hello.php\";}', 'no'),
+(167, 'ftp_credentials', 'a:3:{s:8:\"hostname\";s:29:\"biblio.dev/wordpress/wp-admin\";s:8:\"username\";s:9:\"teyssedou\";s:15:\"connection_type\";s:3:\"ftp\";}', 'yes');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliopostmeta`
+-- Structure de la table `wp_bibliopostmeta`
 --
 
 CREATE TABLE `wp_bibliopostmeta` (
@@ -259,7 +266,7 @@ CREATE TABLE `wp_bibliopostmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_bibliopostmeta`
+-- Contenu de la table `wp_bibliopostmeta`
 --
 
 INSERT INTO `wp_bibliopostmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
@@ -351,12 +358,14 @@ INSERT INTO `wp_bibliopostmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`)
 (91, 25, '_wp_trash_meta_time', '1517223633'),
 (92, 26, '_edit_lock', '1517223705:1'),
 (93, 26, '_wp_trash_meta_status', 'publish'),
-(94, 26, '_wp_trash_meta_time', '1517223706');
+(94, 26, '_wp_trash_meta_time', '1517223706'),
+(95, 4, '_edit_lock', '1517238366:2'),
+(96, 4, '_edit_last', '2');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_biblioposts`
+-- Structure de la table `wp_biblioposts`
 --
 
 CREATE TABLE `wp_biblioposts` (
@@ -386,14 +395,14 @@ CREATE TABLE `wp_biblioposts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_biblioposts`
+-- Contenu de la table `wp_biblioposts`
 --
 
 INSERT INTO `wp_biblioposts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (1, 1, '2018-01-29 11:09:40', '2018-01-29 10:09:40', 'Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous !', 'Bonjour tout le monde !', '', 'publish', 'open', 'open', '', 'bonjour-tout-le-monde', '', '', '2018-01-29 11:09:40', '2018-01-29 10:09:40', '', 0, 'http://biblio.dev/wordpress/?p=1', 0, 'post', '', 1),
 (2, 1, '2018-01-29 11:09:40', '2018-01-29 10:09:40', 'Voici un exemple de page. Elle est différente d’un article de blog, en cela qu’elle restera à la même place, et s’affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :\n\n<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et ceci est mon blog. J’habite à Bordeaux, j’ai un super chien qui s’appelle Russell, et j’aime la vodka-ananas (ainsi que perdre mon temps à regarder la pluie tomber).</blockquote>\n\n...ou bien quelque chose comme cela :\n\n<blockquote>La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer au public des machins-trucs de qualité depuis cette année. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>\n\nÉtant donné que vous êtes un nouvel utilisateur ou une nouvelle utilisatrice de WordPress, vous devriez vous rendre sur votre <a href=\"http://biblio.dev/wordpress/wp-admin/\">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !', 'Page d’exemple', '', 'publish', 'closed', 'open', '', 'page-d-exemple', '', '', '2018-01-29 11:09:40', '2018-01-29 10:09:40', '', 0, 'http://biblio.dev/wordpress/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2018-01-29 11:09:52', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'open', 'open', '', '', '', '', '2018-01-29 11:09:52', '0000-00-00 00:00:00', '', 0, 'http://biblio.dev/wordpress/?p=3', 0, 'post', '', 0),
-(4, 1, '2018-01-29 11:11:22', '2018-01-29 10:11:22', 'Bienvenue sur votre site ! C’est votre page d’accueil que vos visiteurs verront lorsqu’ils arriveront sur votre site la première fois.', 'Accueil', '', 'publish', 'closed', 'closed', '', 'accueil', '', '', '2018-01-29 11:11:22', '2018-01-29 10:11:22', '', 0, 'http://biblio.dev/wordpress/?page_id=4', 0, 'page', '', 0),
+(4, 1, '2018-01-29 11:11:22', '2018-01-29 10:11:22', 'Test', 'Accueil', '', 'publish', 'closed', 'closed', '', 'accueil', '', '', '2018-01-29 16:05:50', '2018-01-29 15:05:50', '', 0, 'http://biblio.dev/wordpress/?page_id=4', 0, 'page', '', 0),
 (5, 1, '2018-01-29 11:11:23', '2018-01-29 10:11:23', 'Vous pourriez être un artiste et vouloir présenter vos travaux et vous même ou encore être une entreprise avec une mission à promouvoir.', 'À propos de', '', 'publish', 'closed', 'closed', '', 'a-propos-de', '', '', '2018-01-29 11:11:23', '2018-01-29 10:11:23', '', 0, 'http://biblio.dev/wordpress/?page_id=5', 0, 'page', '', 0),
 (6, 1, '2018-01-29 11:11:23', '2018-01-29 10:11:23', 'C’est une page avec des informations de contact de base, comme l’adresse et le numéro de téléphone. Vous pouvez aussi essayer une extension pour ajouter un formulaire de contact.', 'Contact', '', 'publish', 'closed', 'closed', '', 'contact', '', '', '2018-01-29 11:11:23', '2018-01-29 10:11:23', '', 0, 'http://biblio.dev/wordpress/?page_id=6', 0, 'page', '', 0),
 (7, 1, '2018-01-29 11:11:23', '2018-01-29 10:11:23', '', 'Blog', '', 'publish', 'closed', 'closed', '', 'blog', '', '', '2018-01-29 11:11:23', '2018-01-29 10:11:23', '', 0, 'http://biblio.dev/wordpress/?page_id=7', 0, 'page', '', 0),
@@ -415,12 +424,13 @@ INSERT INTO `wp_biblioposts` (`ID`, `post_author`, `post_date`, `post_date_gmt`,
 (23, 1, '2018-01-29 11:11:29', '2018-01-29 10:11:29', '', 'E-mail', '', 'publish', 'closed', 'closed', '', 'e-mail', '', '', '2018-01-29 11:11:29', '2018-01-29 10:11:29', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/e-mail/', 4, 'nav_menu_item', '', 0),
 (24, 1, '2018-01-29 11:57:24', '2018-01-29 10:57:24', '{\n    \"old_sidebars_widgets_data\": {\n        \"value\": {\n            \"wp_inactive_widgets\": [],\n            \"sidebar-1\": [\n                \"text-2\",\n                \"search-3\",\n                \"text-3\"\n            ],\n            \"sidebar-2\": [\n                \"text-4\"\n            ],\n            \"sidebar-3\": [\n                \"text-5\",\n                \"search-4\"\n            ]\n        },\n        \"type\": \"global_variable\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:57:23\"\n    },\n    \"twentyfifteen::nav_menu_locations[primary]\": {\n        \"value\": 2,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:57:23\"\n    },\n    \"twentyfifteen::nav_menu_locations[social]\": {\n        \"value\": 3,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:57:23\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '004d7417-5d47-47ee-8b09-011fbd379c40', '', '', '2018-01-29 11:57:24', '2018-01-29 10:57:24', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/004d7417-5d47-47ee-8b09-011fbd379c40/', 0, 'customize_changeset', '', 0),
 (25, 1, '2018-01-29 12:00:33', '2018-01-29 11:00:33', '{\n    \"sidebars_widgets[sidebar-1]\": {\n        \"value\": [\n            \"text-2\"\n        ],\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:00:33\"\n    },\n    \"twentyfifteen::nav_menu_locations[social]\": {\n        \"value\": 0,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:59:39\"\n    },\n    \"widget_text[2]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE4NzoiPHN0cm9uZz5IZXVyZXMgZOKAmW91dmVydHVyZTwvc3Ryb25nPg0KRHUgbHVuZGkgYXUgdmVuZHJlZGnCoDogOWgwMOKAkzE3aDAwDQpMZXMgc2FtZWRpIGV0IGRpbWFuY2hlwqA6IDExaDAw4oCTMTVoMDANCg0KPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpBdmVudWUgZGVzIENoYW1wcy3DiWx5c8OpZXMNCjc1MDA4LCBQYXJpcyI7czo2OiJmaWx0ZXIiO2I6MTtzOjY6InZpc3VhbCI7YjoxO30=\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"0b004fe1b2b3f14a2a9284b8b58550a4\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:00:33\"\n    },\n    \"widget_text[4]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE4NzoiPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpBdmVudWUgZGVzIENoYW1wcy3DiWx5c8OpZXMNCjc1MDA4LCBQYXJpcw0KDQo8c3Ryb25nPkhldXJlcyBk4oCZb3V2ZXJ0dXJlPC9zdHJvbmc+DQpEdSBsdW5kaSBhdSB2ZW5kcmVkacKgOiA5aDAw4oCTMTdoMDANCkxlcyBzYW1lZGkgZXQgZGltYW5jaGXCoDogMTFoMDDigJMxNWgwMCI7czo2OiJmaWx0ZXIiO2I6MTtzOjY6InZpc3VhbCI7YjoxO30=\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"94f7d6c62e3a1963228cbfe89aed1043\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:00:33\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '2923ad09-4cd3-488c-b414-48d4453734d1', '', '', '2018-01-29 12:00:33', '2018-01-29 11:00:33', '', 0, 'http://biblio.dev/wordpress/?p=25', 0, 'customize_changeset', '', 0),
-(26, 1, '2018-01-29 12:01:45', '2018-01-29 11:01:45', '{\n    \"widget_text[2]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE3NjoiPHN0cm9uZz5IZXVyZXMgZOKAmW91dmVydHVyZTwvc3Ryb25nPg0KRHUgbHVuZGkgYXUgdmVuZHJlZGnCoDogOWgwMOKAkzE3aDAwDQpMZXMgc2FtZWRpIGV0IGRpbWFuY2hlwqA6IDExaDAw4oCTMTVoMDANCg0KPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpSdWUgZHUgUG91emFyZA0KNDYwOTAsIEVzcMOocmUiO3M6NjoiZmlsdGVyIjtiOjE7czo2OiJ2aXN1YWwiO2I6MTt9\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"6a85a6626a24a88a1356b6c92a1a4cec\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:01:45\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '74886dae-e55f-4bcf-8238-ca4f930c5518', '', '', '2018-01-29 12:01:45', '2018-01-29 11:01:45', '', 0, 'http://biblio.dev/wordpress/?p=26', 0, 'customize_changeset', '', 0);
+(26, 1, '2018-01-29 12:01:45', '2018-01-29 11:01:45', '{\n    \"widget_text[2]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE3NjoiPHN0cm9uZz5IZXVyZXMgZOKAmW91dmVydHVyZTwvc3Ryb25nPg0KRHUgbHVuZGkgYXUgdmVuZHJlZGnCoDogOWgwMOKAkzE3aDAwDQpMZXMgc2FtZWRpIGV0IGRpbWFuY2hlwqA6IDExaDAw4oCTMTVoMDANCg0KPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpSdWUgZHUgUG91emFyZA0KNDYwOTAsIEVzcMOocmUiO3M6NjoiZmlsdGVyIjtiOjE7czo2OiJ2aXN1YWwiO2I6MTt9\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"6a85a6626a24a88a1356b6c92a1a4cec\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:01:45\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '74886dae-e55f-4bcf-8238-ca4f930c5518', '', '', '2018-01-29 12:01:45', '2018-01-29 11:01:45', '', 0, 'http://biblio.dev/wordpress/?p=26', 0, 'customize_changeset', '', 0),
+(27, 2, '2018-01-29 16:05:50', '2018-01-29 15:05:50', 'Test', 'Accueil', '', 'inherit', 'closed', 'closed', '', '4-revision-v1', '', '', '2018-01-29 16:05:50', '2018-01-29 15:05:50', '', 4, 'http://biblio.dev/wordpress/index.php/2018/01/29/4-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliotermmeta`
+-- Structure de la table `wp_bibliotermmeta`
 --
 
 CREATE TABLE `wp_bibliotermmeta` (
@@ -433,7 +443,7 @@ CREATE TABLE `wp_bibliotermmeta` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_biblioterms`
+-- Structure de la table `wp_biblioterms`
 --
 
 CREATE TABLE `wp_biblioterms` (
@@ -444,7 +454,7 @@ CREATE TABLE `wp_biblioterms` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_biblioterms`
+-- Contenu de la table `wp_biblioterms`
 --
 
 INSERT INTO `wp_biblioterms` (`term_id`, `name`, `slug`, `term_group`) VALUES
@@ -455,7 +465,7 @@ INSERT INTO `wp_biblioterms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_biblioterm_relationships`
+-- Structure de la table `wp_biblioterm_relationships`
 --
 
 CREATE TABLE `wp_biblioterm_relationships` (
@@ -465,7 +475,7 @@ CREATE TABLE `wp_biblioterm_relationships` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_biblioterm_relationships`
+-- Contenu de la table `wp_biblioterm_relationships`
 --
 
 INSERT INTO `wp_biblioterm_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
@@ -483,7 +493,7 @@ INSERT INTO `wp_biblioterm_relationships` (`object_id`, `term_taxonomy_id`, `ter
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_biblioterm_taxonomy`
+-- Structure de la table `wp_biblioterm_taxonomy`
 --
 
 CREATE TABLE `wp_biblioterm_taxonomy` (
@@ -496,7 +506,7 @@ CREATE TABLE `wp_biblioterm_taxonomy` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_biblioterm_taxonomy`
+-- Contenu de la table `wp_biblioterm_taxonomy`
 --
 
 INSERT INTO `wp_biblioterm_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
@@ -507,7 +517,7 @@ INSERT INTO `wp_biblioterm_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`,
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliousermeta`
+-- Structure de la table `wp_bibliousermeta`
 --
 
 CREATE TABLE `wp_bibliousermeta` (
@@ -518,7 +528,7 @@ CREATE TABLE `wp_bibliousermeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_bibliousermeta`
+-- Contenu de la table `wp_bibliousermeta`
 --
 
 INSERT INTO `wp_bibliousermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES
@@ -553,12 +563,13 @@ INSERT INTO `wp_bibliousermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`
 (29, 2, 'locale', ''),
 (30, 2, 'wp_bibliocapabilities', 'a:1:{s:13:\"administrator\";b:1;}'),
 (31, 2, 'wp_bibliouser_level', '10'),
-(32, 2, 'dismissed_wp_pointers', '');
+(32, 2, 'dismissed_wp_pointers', ''),
+(33, 2, 'session_tokens', 'a:1:{s:64:\"c3f69b7f7eff42916d8a6ef75569288454ab2e486e17305d16530a67e2363b6a\";a:4:{s:10:\"expiration\";i:1517396791;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\";s:5:\"login\";i:1517223991;}}');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_bibliousers`
+-- Structure de la table `wp_bibliousers`
 --
 
 CREATE TABLE `wp_bibliousers` (
@@ -575,7 +586,7 @@ CREATE TABLE `wp_bibliousers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_bibliousers`
+-- Contenu de la table `wp_bibliousers`
 --
 
 INSERT INTO `wp_bibliousers` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
@@ -583,11 +594,11 @@ INSERT INTO `wp_bibliousers` (`ID`, `user_login`, `user_pass`, `user_nicename`, 
 (2, 'teyssedou', '$P$BkLKBh.zIl19/hsqxtVNkJK/7OUCoQ0', 'teyssedou', 'mikaelteyssedou@gmail.com', '', '2018-01-29 10:51:31', '1517223092:$P$BL6UfX1GEX6JmXlShPOlZMDhAssNyS/', 0, 'teyssedou');
 
 --
--- Indexes for dumped tables
+-- Index pour les tables exportées
 --
 
 --
--- Indexes for table `wp_bibliocommentmeta`
+-- Index pour la table `wp_bibliocommentmeta`
 --
 ALTER TABLE `wp_bibliocommentmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -595,7 +606,7 @@ ALTER TABLE `wp_bibliocommentmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_bibliocomments`
+-- Index pour la table `wp_bibliocomments`
 --
 ALTER TABLE `wp_bibliocomments`
   ADD PRIMARY KEY (`comment_ID`),
@@ -606,21 +617,21 @@ ALTER TABLE `wp_bibliocomments`
   ADD KEY `comment_author_email` (`comment_author_email`(10));
 
 --
--- Indexes for table `wp_bibliolinks`
+-- Index pour la table `wp_bibliolinks`
 --
 ALTER TABLE `wp_bibliolinks`
   ADD PRIMARY KEY (`link_id`),
   ADD KEY `link_visible` (`link_visible`);
 
 --
--- Indexes for table `wp_bibliooptions`
+-- Index pour la table `wp_bibliooptions`
 --
 ALTER TABLE `wp_bibliooptions`
   ADD PRIMARY KEY (`option_id`),
   ADD UNIQUE KEY `option_name` (`option_name`);
 
 --
--- Indexes for table `wp_bibliopostmeta`
+-- Index pour la table `wp_bibliopostmeta`
 --
 ALTER TABLE `wp_bibliopostmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -628,7 +639,7 @@ ALTER TABLE `wp_bibliopostmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_biblioposts`
+-- Index pour la table `wp_biblioposts`
 --
 ALTER TABLE `wp_biblioposts`
   ADD PRIMARY KEY (`ID`),
@@ -638,7 +649,7 @@ ALTER TABLE `wp_biblioposts`
   ADD KEY `post_author` (`post_author`);
 
 --
--- Indexes for table `wp_bibliotermmeta`
+-- Index pour la table `wp_bibliotermmeta`
 --
 ALTER TABLE `wp_bibliotermmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -646,7 +657,7 @@ ALTER TABLE `wp_bibliotermmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_biblioterms`
+-- Index pour la table `wp_biblioterms`
 --
 ALTER TABLE `wp_biblioterms`
   ADD PRIMARY KEY (`term_id`),
@@ -654,14 +665,14 @@ ALTER TABLE `wp_biblioterms`
   ADD KEY `name` (`name`(191));
 
 --
--- Indexes for table `wp_biblioterm_relationships`
+-- Index pour la table `wp_biblioterm_relationships`
 --
 ALTER TABLE `wp_biblioterm_relationships`
   ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
   ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
 
 --
--- Indexes for table `wp_biblioterm_taxonomy`
+-- Index pour la table `wp_biblioterm_taxonomy`
 --
 ALTER TABLE `wp_biblioterm_taxonomy`
   ADD PRIMARY KEY (`term_taxonomy_id`),
@@ -669,7 +680,7 @@ ALTER TABLE `wp_biblioterm_taxonomy`
   ADD KEY `taxonomy` (`taxonomy`);
 
 --
--- Indexes for table `wp_bibliousermeta`
+-- Index pour la table `wp_bibliousermeta`
 --
 ALTER TABLE `wp_bibliousermeta`
   ADD PRIMARY KEY (`umeta_id`),
@@ -677,7 +688,7 @@ ALTER TABLE `wp_bibliousermeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_bibliousers`
+-- Index pour la table `wp_bibliousers`
 --
 ALTER TABLE `wp_bibliousers`
   ADD PRIMARY KEY (`ID`),
@@ -686,61 +697,61 @@ ALTER TABLE `wp_bibliousers`
   ADD KEY `user_email` (`user_email`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables exportées
 --
 
 --
--- AUTO_INCREMENT for table `wp_bibliocommentmeta`
+-- AUTO_INCREMENT pour la table `wp_bibliocommentmeta`
 --
 ALTER TABLE `wp_bibliocommentmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `wp_bibliocomments`
+-- AUTO_INCREMENT pour la table `wp_bibliocomments`
 --
 ALTER TABLE `wp_bibliocomments`
   MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT for table `wp_bibliolinks`
+-- AUTO_INCREMENT pour la table `wp_bibliolinks`
 --
 ALTER TABLE `wp_bibliolinks`
   MODIFY `link_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `wp_bibliooptions`
+-- AUTO_INCREMENT pour la table `wp_bibliooptions`
 --
 ALTER TABLE `wp_bibliooptions`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=159;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=168;
 --
--- AUTO_INCREMENT for table `wp_bibliopostmeta`
+-- AUTO_INCREMENT pour la table `wp_bibliopostmeta`
 --
 ALTER TABLE `wp_bibliopostmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
 --
--- AUTO_INCREMENT for table `wp_biblioposts`
+-- AUTO_INCREMENT pour la table `wp_biblioposts`
 --
 ALTER TABLE `wp_biblioposts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 --
--- AUTO_INCREMENT for table `wp_bibliotermmeta`
+-- AUTO_INCREMENT pour la table `wp_bibliotermmeta`
 --
 ALTER TABLE `wp_bibliotermmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `wp_biblioterms`
+-- AUTO_INCREMENT pour la table `wp_biblioterms`
 --
 ALTER TABLE `wp_biblioterms`
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- AUTO_INCREMENT for table `wp_biblioterm_taxonomy`
+-- AUTO_INCREMENT pour la table `wp_biblioterm_taxonomy`
 --
 ALTER TABLE `wp_biblioterm_taxonomy`
   MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- AUTO_INCREMENT for table `wp_bibliousermeta`
+-- AUTO_INCREMENT pour la table `wp_bibliousermeta`
 --
 ALTER TABLE `wp_bibliousermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 --
--- AUTO_INCREMENT for table `wp_bibliousers`
+-- AUTO_INCREMENT pour la table `wp_bibliousers`
 --
 ALTER TABLE `wp_bibliousers`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
