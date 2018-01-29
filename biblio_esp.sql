@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 29, 2018 at 11:51 AM
+-- Generation Time: Jan 29, 2018 at 12:03 PM
 -- Server version: 5.7.20-0ubuntu0.17.10.1
 -- PHP Version: 7.1.11-0ubuntu0.17.10.1
 
@@ -143,8 +143,8 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (37, 'gmt_offset', '0', 'yes'),
 (38, 'default_email_category', '1', 'yes'),
 (39, 'recently_edited', '', 'no'),
-(40, 'template', 'twentyseventeen', 'yes'),
-(41, 'stylesheet', 'twentyseventeen', 'yes'),
+(40, 'template', 'twentyfifteen', 'yes'),
+(41, 'stylesheet', 'twentyfifteen', 'yes'),
 (42, 'comment_whitelist', '1', 'yes'),
 (43, 'blacklist_keys', '', 'no'),
 (44, 'comment_registration', '0', 'yes'),
@@ -182,7 +182,7 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (76, 'comment_order', 'asc', 'yes'),
 (77, 'sticky_posts', 'a:0:{}', 'yes'),
 (78, 'widget_categories', 'a:2:{i:2;a:4:{s:5:\"title\";s:0:\"\";s:5:\"count\";i:0;s:12:\"hierarchical\";i:0;s:8:\"dropdown\";i:0;}s:12:\"_multiwidget\";i:1;}', 'yes'),
-(79, 'widget_text', 'a:5:{i:2;a:4:{s:5:\"title\";s:14:\"Retrouvez-nous\";s:4:\"text\";s:189:\"<strong>Adresse</strong>\nAvenue des Champs-Élysées\n75008, Paris\n\n<strong>Heures d’ouverture</strong>\nDu lundi au vendredi : 9h00&ndash;17h00\nLes samedi et dimanche : 11h00&ndash;15h00\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}i:3;a:4:{s:5:\"title\";s:20:\"À propos de ce site\";s:4:\"text\";s:99:\"C’est peut-être le bon endroit pour vous présenter et votre site ou insérer quelques crédits.\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}i:4;a:4:{s:5:\"title\";s:14:\"Retrouvez-nous\";s:4:\"text\";s:189:\"<strong>Adresse</strong>\nAvenue des Champs-Élysées\n75008, Paris\n\n<strong>Heures d’ouverture</strong>\nDu lundi au vendredi : 9h00&ndash;17h00\nLes samedi et dimanche : 11h00&ndash;15h00\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}i:5;a:4:{s:5:\"title\";s:20:\"À propos de ce site\";s:4:\"text\";s:99:\"C’est peut-être le bon endroit pour vous présenter et votre site ou insérer quelques crédits.\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}s:12:\"_multiwidget\";i:1;}', 'yes'),
+(79, 'widget_text', 'a:5:{i:2;a:4:{s:5:\"title\";s:14:\"Retrouvez-nous\";s:4:\"text\";s:176:\"<strong>Heures d’ouverture</strong>\r\nDu lundi au vendredi : 9h00–17h00\r\nLes samedi et dimanche : 11h00–15h00\r\n\r\n<strong>Adresse</strong>\r\nRue du Pouzard\r\n46090, Espère\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}i:3;a:4:{s:5:\"title\";s:20:\"À propos de ce site\";s:4:\"text\";s:99:\"C’est peut-être le bon endroit pour vous présenter et votre site ou insérer quelques crédits.\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}i:4;a:4:{s:5:\"title\";s:14:\"Retrouvez-nous\";s:4:\"text\";s:187:\"<strong>Adresse</strong>\r\nAvenue des Champs-Élysées\r\n75008, Paris\r\n\r\n<strong>Heures d’ouverture</strong>\r\nDu lundi au vendredi : 9h00–17h00\r\nLes samedi et dimanche : 11h00–15h00\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}i:5;a:4:{s:5:\"title\";s:20:\"À propos de ce site\";s:4:\"text\";s:99:\"C’est peut-être le bon endroit pour vous présenter et votre site ou insérer quelques crédits.\";s:6:\"filter\";b:1;s:6:\"visual\";b:1;}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (80, 'widget_rss', 'a:2:{i:1;a:0:{}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (81, 'uninstall_plugins', 'a:0:{}', 'no'),
 (82, 'timezone_string', 'Europe/Paris', 'yes'),
@@ -203,7 +203,7 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (97, 'widget_recent-comments', 'a:2:{i:2;a:2:{s:5:\"title\";s:0:\"\";s:6:\"number\";i:5;}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (98, 'widget_archives', 'a:2:{i:2;a:3:{s:5:\"title\";s:0:\"\";s:5:\"count\";i:0;s:8:\"dropdown\";i:0;}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (99, 'widget_meta', 'a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
-(100, 'sidebars_widgets', 'a:5:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:3:{i:0;s:6:\"text-2\";i:1;s:8:\"search-3\";i:2;s:6:\"text-3\";}s:9:\"sidebar-2\";a:1:{i:0;s:6:\"text-4\";}s:9:\"sidebar-3\";a:2:{i:0;s:6:\"text-5\";i:1;s:8:\"search-4\";}s:13:\"array_version\";i:3;}', 'yes'),
+(100, 'sidebars_widgets', 'a:5:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:1:{i:0;s:6:\"text-2\";}s:9:\"sidebar-2\";a:1:{i:0;s:6:\"text-4\";}s:9:\"sidebar-3\";a:2:{i:0;s:6:\"text-5\";i:1;s:8:\"search-4\";}s:13:\"array_version\";i:3;}', 'yes'),
 (101, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (102, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (103, 'widget_media_audio', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -214,9 +214,7 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (108, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (109, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (110, 'cron', 'a:3:{i:1517263781;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1517307031;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
-(111, 'theme_mods_twentyseventeen', 'a:6:{s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:2:{s:3:\"top\";i:2;s:6:\"social\";i:3;}s:7:\"panel_1\";i:8;s:7:\"panel_2\";i:5;s:7:\"panel_3\";i:7;s:7:\"panel_4\";i:6;}', 'yes'),
-(118, '_site_transient_timeout_theme_roots', '1517222387', 'no'),
-(119, '_site_transient_theme_roots', 'a:3:{s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
+(111, 'theme_mods_twentyseventeen', 'a:7:{s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:2:{s:3:\"top\";i:2;s:6:\"social\";i:3;}s:7:\"panel_1\";i:8;s:7:\"panel_2\";i:5;s:7:\"panel_3\";i:7;s:7:\"panel_4\";i:6;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1517223443;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:3:{i:0;s:6:\"text-2\";i:1;s:8:\"search-3\";i:2;s:6:\"text-3\";}s:9:\"sidebar-2\";a:1:{i:0;s:6:\"text-4\";}s:9:\"sidebar-3\";a:2:{i:0;s:6:\"text-5\";i:1;s:8:\"search-4\";}}}}', 'yes'),
 (121, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:65:\"https://downloads.wordpress.org/release/fr_FR/wordpress-4.9.2.zip\";s:6:\"locale\";s:5:\"fr_FR\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:65:\"https://downloads.wordpress.org/release/fr_FR/wordpress-4.9.2.zip\";s:10:\"no_content\";b:0;s:11:\"new_bundled\";b:0;s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.9.2\";s:7:\"version\";s:5:\"4.9.2\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1517220590;s:15:\"version_checked\";s:5:\"4.9.2\";s:12:\"translations\";a:0:{}}', 'no'),
 (122, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1517220593;s:7:\"checked\";a:3:{s:13:\"twentyfifteen\";s:3:\"1.9\";s:15:\"twentyseventeen\";s:3:\"1.4\";s:13:\"twentysixteen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
 (123, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1517220631;s:7:\"checked\";a:2:{s:19:\"akismet/akismet.php\";s:5:\"4.0.2\";s:9:\"hello.php\";s:3:\"1.6\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:1:{i:0;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:11:\"hello-dolly\";s:8:\"language\";s:5:\"fr_FR\";s:7:\"version\";s:3:\"1.6\";s:7:\"updated\";s:19:\"2017-11-05 21:22:50\";s:7:\"package\";s:76:\"https://downloads.wordpress.org/translation/plugin/hello-dolly/1.6/fr_FR.zip\";s:10:\"autoupdate\";b:1;}}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.2\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.2.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907\";s:2:\"2x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";s:7:\"default\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";s:7:\"default\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
@@ -238,7 +236,14 @@ INSERT INTO `wp_bibliooptions` (`option_id`, `option_name`, `option_value`, `aut
 (137, '_transient_timeout_dash_v2_bd94b8f41e74bae2f4dc72e9bd8379af', '1517263794', 'no'),
 (138, '_transient_dash_v2_bd94b8f41e74bae2f4dc72e9bd8379af', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/WordpressFrancophone/~3/BC2q8usn6uA/\'>L’élection du bureau WPFR 2018</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/XpvoSkoa7DQ/\'>Gutenberg 2.0 est arrivé : nombreuses améliorations d’accessibilité et de navigation au clavier</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/K-L5h5Mmyus/\'>Obligation de conformité des logiciels et systèmes de caisse depuis le 1er janvier 2018</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/E2j2xA0eIko/\'>La Galaxie Envato : Retour sur une success story</a></li></ul></div>', 'no'),
 (149, 'nav_menu_options', 'a:1:{s:8:\"auto_add\";a:0:{}}', 'yes'),
-(150, '_transient_is_multi_author', '0', 'yes');
+(151, '_site_transient_timeout_theme_roots', '1517225237', 'no'),
+(152, '_site_transient_theme_roots', 'a:3:{s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
+(153, 'theme_mods_twentyfifteen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:2:{s:7:\"primary\";i:2;s:6:\"social\";i:0;}}', 'yes'),
+(154, 'theme_switch_menu_locations', 'a:2:{s:3:\"top\";i:2;s:6:\"social\";i:3;}', 'yes'),
+(155, 'current_theme', 'Twenty Fifteen', 'yes'),
+(156, 'theme_switched', '', 'yes'),
+(157, 'theme_switched_via_customizer', '', 'yes'),
+(158, 'customize_stashed_theme_mods', 'a:0:{}', 'no');
 
 -- --------------------------------------------------------
 
@@ -338,7 +343,15 @@ INSERT INTO `wp_bibliopostmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`)
 (83, 23, '_menu_item_xfn', ''),
 (84, 23, '_menu_item_url', 'mailto:wordpress@example.com'),
 (85, 9, '_wp_trash_meta_status', 'publish'),
-(86, 9, '_wp_trash_meta_time', '1517220690');
+(86, 9, '_wp_trash_meta_time', '1517220690'),
+(87, 24, '_wp_trash_meta_status', 'publish'),
+(88, 24, '_wp_trash_meta_time', '1517223444'),
+(89, 25, '_edit_lock', '1517223633:1'),
+(90, 25, '_wp_trash_meta_status', 'publish'),
+(91, 25, '_wp_trash_meta_time', '1517223633'),
+(92, 26, '_edit_lock', '1517223705:1'),
+(93, 26, '_wp_trash_meta_status', 'publish'),
+(94, 26, '_wp_trash_meta_time', '1517223706');
 
 -- --------------------------------------------------------
 
@@ -399,7 +412,10 @@ INSERT INTO `wp_biblioposts` (`ID`, `post_author`, `post_date`, `post_date_gmt`,
 (20, 1, '2018-01-29 11:11:27', '2018-01-29 10:11:27', '', 'Facebook', '', 'publish', 'closed', 'closed', '', 'facebook', '', '', '2018-01-29 11:11:27', '2018-01-29 10:11:27', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/facebook/', 1, 'nav_menu_item', '', 0),
 (21, 1, '2018-01-29 11:11:28', '2018-01-29 10:11:28', '', 'Twitter', '', 'publish', 'closed', 'closed', '', 'twitter', '', '', '2018-01-29 11:11:28', '2018-01-29 10:11:28', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/twitter/', 2, 'nav_menu_item', '', 0),
 (22, 1, '2018-01-29 11:11:28', '2018-01-29 10:11:28', '', 'Instagram', '', 'publish', 'closed', 'closed', '', 'instagram', '', '', '2018-01-29 11:11:28', '2018-01-29 10:11:28', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/instagram/', 3, 'nav_menu_item', '', 0),
-(23, 1, '2018-01-29 11:11:29', '2018-01-29 10:11:29', '', 'E-mail', '', 'publish', 'closed', 'closed', '', 'e-mail', '', '', '2018-01-29 11:11:29', '2018-01-29 10:11:29', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/e-mail/', 4, 'nav_menu_item', '', 0);
+(23, 1, '2018-01-29 11:11:29', '2018-01-29 10:11:29', '', 'E-mail', '', 'publish', 'closed', 'closed', '', 'e-mail', '', '', '2018-01-29 11:11:29', '2018-01-29 10:11:29', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/e-mail/', 4, 'nav_menu_item', '', 0),
+(24, 1, '2018-01-29 11:57:24', '2018-01-29 10:57:24', '{\n    \"old_sidebars_widgets_data\": {\n        \"value\": {\n            \"wp_inactive_widgets\": [],\n            \"sidebar-1\": [\n                \"text-2\",\n                \"search-3\",\n                \"text-3\"\n            ],\n            \"sidebar-2\": [\n                \"text-4\"\n            ],\n            \"sidebar-3\": [\n                \"text-5\",\n                \"search-4\"\n            ]\n        },\n        \"type\": \"global_variable\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:57:23\"\n    },\n    \"twentyfifteen::nav_menu_locations[primary]\": {\n        \"value\": 2,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:57:23\"\n    },\n    \"twentyfifteen::nav_menu_locations[social]\": {\n        \"value\": 3,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:57:23\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '004d7417-5d47-47ee-8b09-011fbd379c40', '', '', '2018-01-29 11:57:24', '2018-01-29 10:57:24', '', 0, 'http://biblio.dev/wordpress/index.php/2018/01/29/004d7417-5d47-47ee-8b09-011fbd379c40/', 0, 'customize_changeset', '', 0),
+(25, 1, '2018-01-29 12:00:33', '2018-01-29 11:00:33', '{\n    \"sidebars_widgets[sidebar-1]\": {\n        \"value\": [\n            \"text-2\"\n        ],\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:00:33\"\n    },\n    \"twentyfifteen::nav_menu_locations[social]\": {\n        \"value\": 0,\n        \"type\": \"theme_mod\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 10:59:39\"\n    },\n    \"widget_text[2]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE4NzoiPHN0cm9uZz5IZXVyZXMgZOKAmW91dmVydHVyZTwvc3Ryb25nPg0KRHUgbHVuZGkgYXUgdmVuZHJlZGnCoDogOWgwMOKAkzE3aDAwDQpMZXMgc2FtZWRpIGV0IGRpbWFuY2hlwqA6IDExaDAw4oCTMTVoMDANCg0KPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpBdmVudWUgZGVzIENoYW1wcy3DiWx5c8OpZXMNCjc1MDA4LCBQYXJpcyI7czo2OiJmaWx0ZXIiO2I6MTtzOjY6InZpc3VhbCI7YjoxO30=\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"0b004fe1b2b3f14a2a9284b8b58550a4\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:00:33\"\n    },\n    \"widget_text[4]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE4NzoiPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpBdmVudWUgZGVzIENoYW1wcy3DiWx5c8OpZXMNCjc1MDA4LCBQYXJpcw0KDQo8c3Ryb25nPkhldXJlcyBk4oCZb3V2ZXJ0dXJlPC9zdHJvbmc+DQpEdSBsdW5kaSBhdSB2ZW5kcmVkacKgOiA5aDAw4oCTMTdoMDANCkxlcyBzYW1lZGkgZXQgZGltYW5jaGXCoDogMTFoMDDigJMxNWgwMCI7czo2OiJmaWx0ZXIiO2I6MTtzOjY6InZpc3VhbCI7YjoxO30=\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"94f7d6c62e3a1963228cbfe89aed1043\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:00:33\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '2923ad09-4cd3-488c-b414-48d4453734d1', '', '', '2018-01-29 12:00:33', '2018-01-29 11:00:33', '', 0, 'http://biblio.dev/wordpress/?p=25', 0, 'customize_changeset', '', 0),
+(26, 1, '2018-01-29 12:01:45', '2018-01-29 11:01:45', '{\n    \"widget_text[2]\": {\n        \"value\": {\n            \"encoded_serialized_instance\": \"YTo0OntzOjU6InRpdGxlIjtzOjE0OiJSZXRyb3V2ZXotbm91cyI7czo0OiJ0ZXh0IjtzOjE3NjoiPHN0cm9uZz5IZXVyZXMgZOKAmW91dmVydHVyZTwvc3Ryb25nPg0KRHUgbHVuZGkgYXUgdmVuZHJlZGnCoDogOWgwMOKAkzE3aDAwDQpMZXMgc2FtZWRpIGV0IGRpbWFuY2hlwqA6IDExaDAw4oCTMTVoMDANCg0KPHN0cm9uZz5BZHJlc3NlPC9zdHJvbmc+DQpSdWUgZHUgUG91emFyZA0KNDYwOTAsIEVzcMOocmUiO3M6NjoiZmlsdGVyIjtiOjE7czo2OiJ2aXN1YWwiO2I6MTt9\",\n            \"title\": \"Retrouvez-nous\",\n            \"is_widget_customizer_js_value\": true,\n            \"instance_hash_key\": \"6a85a6626a24a88a1356b6c92a1a4cec\"\n        },\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2018-01-29 11:01:45\"\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '74886dae-e55f-4bcf-8238-ca4f930c5518', '', '', '2018-01-29 12:01:45', '2018-01-29 11:01:45', '', 0, 'http://biblio.dev/wordpress/?p=26', 0, 'customize_changeset', '', 0);
 
 -- --------------------------------------------------------
 
@@ -692,17 +708,17 @@ ALTER TABLE `wp_bibliolinks`
 -- AUTO_INCREMENT for table `wp_bibliooptions`
 --
 ALTER TABLE `wp_bibliooptions`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=151;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=159;
 --
 -- AUTO_INCREMENT for table `wp_bibliopostmeta`
 --
 ALTER TABLE `wp_bibliopostmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95;
 --
 -- AUTO_INCREMENT for table `wp_biblioposts`
 --
 ALTER TABLE `wp_biblioposts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 --
 -- AUTO_INCREMENT for table `wp_bibliotermmeta`
 --
