@@ -22,7 +22,17 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+			<div class="coordonnees">
+			<p><b>Adresse e-mail :</b> bibli.espere@orange.fr</p>
+			<p><b>Téléphone bibliothèque :</b> 05.65.20.06.89</p>
+			<p><b>Téléphone mairie :</b> 05.65.20.07.06</p>
+			</div>
+			<div class="liens">
+			<a href="http://www.mediatheque.grandcahors.fr/index" target="_blank"><?php printf( __( 'Médiathèque Grand Cahors', 'twentyfifteen' ), 'WordPress' ); ?></a>
+			<span><?php printf( __( '&nbsp;.&nbsp;', 'twentyfifteen' ), 'WordPress' ); ?></span>
+			<a href="" target="_blank"><?php printf( __( 'Mentions Légales', 'twentyfifteen' ), 'WordPress' ); ?></a>
+			</div>
+			<p id="pfooter">Site réalisé par les élèves de la formation &nbsp;<a href="https://simplon.co/" target="_blank">Simplon</a>&nbsp; Cahors</p>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
