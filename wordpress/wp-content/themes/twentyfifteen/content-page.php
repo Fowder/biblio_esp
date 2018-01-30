@@ -8,6 +8,8 @@
  */
 ?>
 
+<div id="headerperso"><img src="http://www.objectifgard.com/wp-content/uploads/2012/06/livres.jpg"/><span>Bibliothèque Municipale Espère</span></div>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Post thumbnail.
